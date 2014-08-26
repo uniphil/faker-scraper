@@ -1,0 +1,66 @@
+[
+  {
+    "url": "/rest/filters"
+  },
+  {
+    "url": "/rest/translations/label-translations",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/boundaries",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/boundaries/:boundaryId",
+    "method": "GET",
+    "list": "/rest/gis/boundaries"
+  },
+  {
+    "url": "/rest/gis/clusters",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/clusters/:id",
+    "method": "GET",
+    "list": "/rest/gis/clusters"
+  },
+  {
+    "url": "/rest/gis/activities",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/activities/:id",
+    "method": "GET",
+    "list": "/rest/gis/activities"
+  },
+  {
+    "url": "/rest/gis/structures",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/indicator-layers",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/indicator-layers/:id",
+    "method": "GET",
+    "list": "/rest/gis/indicator-layers"
+  },
+  {
+    "url": "/rest/gis/config",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/saved-maps",
+    "method": "GET"
+  },
+  {
+    "url": "/rest/gis/saved-maps",
+    "method": "POST"
+  },
+  {
+    "url": "/rest/gis/saved-maps/:id",
+    "method": "GET",
+    "list": "/rest/gis/saved-maps"
+  }
+]

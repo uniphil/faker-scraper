@@ -1,0 +1,29 @@
+{
+  "name": "scraped-mock",
+  "version": "0.0.1",
+  "description": "asdf",
+  "main": "mockify.js",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "minimist": "^1.1.0",
+    "request": "^2.40.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devgateway/scraped-mock"
+  },
+  "keywords": [
+    "scrape",
+    "api",
+    "mock"
+  ],
+  "author": "uniphil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devgateway/scraped-mock/issues"
+  },
+  "homepage": "https://github.com/devgateway/scraped-mock"
+}
